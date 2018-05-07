@@ -40,7 +40,7 @@
         };
 
         document.body.innerHTML +=
-          '<div style="width: 100%;letter-spacing:1px;background-color: purple;text-align:right;font-family:helvetica;line-height:20px;color: white;margin: auto;position: absolute;top:0;right: 0;left:0;position:fixed;" title="wrapper"><div class="lg" style="background-color: ' +
+          '<div style="width: 100%;letter-spacing:1px;background-color: purple;text-align:right;font-family:helvetica;line-height:20px;color: white;margin: auto;position: absolute;top:0;right: 0;left:0;position:fixed;z-index: 9999;" title="wrapper"><div class="lg" style="background-color: ' +
           config.lg.background +
           ';position: absolute;padding: 3px 0;margin: 0 auto;width: 100%;right: 0;left: 0;"><p style="margin: 0;padding: 5px;">lg</p></div><div class="md" style="		max-width: 1140px;background-color: ' +
           config.md.background +
